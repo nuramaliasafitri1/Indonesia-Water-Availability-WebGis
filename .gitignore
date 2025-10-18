@@ -1,0 +1,24 @@
+# Abaikan folder virtual environment
+venv/
+env/
+.venv/
+.env/
+.venv
+
+# Abaikan file Python cache
+__pycache__/
+*.py[cod]
+
+# Abaikan file data sementara
+*.log
+*.sqlite3
+
+# Abaikan file sistem
+.DS_Store
+Thumbs.db
+
+# Abaikan file konfigurasi editor
+.vscode/
+.idea/
+
+field_in_GeoJson.txt

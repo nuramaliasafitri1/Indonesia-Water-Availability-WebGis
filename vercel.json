@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "water_availability.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "water_availability.py"
+    }
+  ]
+}
